@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+}
+
+h1 {
+    color: #4a4a4a;
+    margin-bottom: 30px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #333;
+}
+
+.poem-section {
+    margin: 40px 0;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.poem {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: none;
+    position: relative;
+}
+
+.poem-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.poem-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.poem-content p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .poem-title {
+        font-size: 2em;
+    }
+
+    .poem-content p {
+        font-size: 1em;
+    }
+}
+h1 {
+    font-family: 'Dancing Script', cursive; /* Use the imported font */
+    color: transparent; /* Make the text color transparent */
+    background: linear-gradient(45deg, #ff6b6b, #f7b733, #6bc2f7); /* Gradient colors */
+    -webkit-background-clip: text; /* Clip the background to text */
+    background-clip: text; /* For other browsers */
+    margin-bottom: 30px;
+    font-size: 4rem; /* Adjust size as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: add shadow for depth */
+}
